@@ -5,4 +5,4 @@ from . import views
 
 urlpatterns = [
 	path('', views.post_list, name = 'post_list'),
-] + static(settings.STATIC_URL, documnet_root=settings.STATIC_URL)
+] + static(settings.STATIC_URL, document_root=settings.STATIC_URL)
